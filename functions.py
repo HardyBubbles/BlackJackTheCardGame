@@ -27,7 +27,7 @@ def hit(deck, hand):
 
 
 # Function for asking the player to hit or stand
-def hit_or_stand():
+def hit_or_stand(deck, hand):
     global game_on      # to control an upcoming while loop
 
     while True:
